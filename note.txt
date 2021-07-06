@@ -1,0 +1,64 @@
+
+cấu trúc thư mục
+Root
+users	Account.txt
+user_name
+fa.txt	catogary_name.txt	back_up
+
+BUFF_SIZE = 2048
+ClientInfo{
+	islogin
+	username
+	**responses
+	n
+}
+users userList;
+typedef struct user {
+	string username;
+	string password;
+	bool islogin;// init is false
+} user;
+
+typedef vector<user> users;
+
+//hàm hỗ trợ đóng gói
+getLength()
+pasteLength()
+
+I. hiển thị địa chỉ
+-> yêu cầu lấy danh các thư mục
+length | GC
+3 | length | categary \n categary \n
+
+dùng hàm getFileNames()
+foulder_path = "users/abc"
+file_names categary\ncategary\n
+
+//cách thức thêm bản tin trả lời
+new char buff[size];
+res[n++] = buff;
+
+//hàm mẫu
+getRG_response(responses, n, recvBuff + mes_beginPos, mes_endPos - mes_beginPos + 1, userList);
+
+-> lấy địa chỉ ở trong thư mục đó
+length | GA categary
+4 | length | address \n
+
+dùng các hàm:
+getFileSize()
+readFileBlock()
+
+II. chia sẻ địa điểm với bạn bè
+//khuôn dạng bản tin
+length user | categary | address
+
+address - số | không phải số
+
+dùng các hàm:
+getCagegaryAndAddress()
+findFileLine()
+
+III.phía client
+int getRA_Mess(char buff[], int buff_size, int &seq, bool &press)
+

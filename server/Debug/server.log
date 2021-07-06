@@ -1,0 +1,5 @@
+﻿  server.cpp
+p:\other\project\project\server\response.h(260): warning C4018: '<': signed/unsigned mismatch
+p:\other\project\project\server\response.h(267): warning C4018: '<': signed/unsigned mismatch
+  server.vcxproj -> P:\other\project\project\Debug\server.exe
+  server.vcxproj -> P:\other\project\project\Debug\server.pdb (Full PDB)

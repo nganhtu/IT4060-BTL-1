@@ -1,0 +1,5 @@
+﻿  OEBServer.cpp
+p:\other\project\project\oebserver\oebserver.cpp(26): warning C4091: 'typedef ': ignored on left of 'SocketInfo' when no variable is declared
+p:\other\project\project\oebserver\oebserver.cpp(79): warning C4101: 'ret': unreferenced local variable
+  OEBServer.vcxproj -> P:\other\project\project\Debug\OEBServer.exe
+  OEBServer.vcxproj -> P:\other\project\project\Debug\OEBServer.pdb (Full PDB)
