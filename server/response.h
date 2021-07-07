@@ -727,7 +727,7 @@ void getResponses(SocketInfo &socketInfo, users &userList)
 			break;
 
 		case (('R' << 8) + 'S'):
-			printf("get address\n");
+			printf("restore category\n");
 			getRS_response(responses, n, recvBuff + mes_beginPos, mes_endPos - mes_beginPos + 1, socketInfo.clientInfo);
 			break;
 
